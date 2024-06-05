@@ -1,0 +1,12 @@
+﻿@page
+@model loginregistermenu.Models.IndexModel
+@{
+    ViewData["Title"] = "Main Menu";
+}
+
+<h2>Main Menu</h2>
+<ul>
+    <li><a asp-controller="Users" asp-action="Register">Register User</a></li>
+    <li><a asp-controller="Users" asp-action="Login">Login</a></li>
+    <!-- Añadir más enlaces según las necesidades -->
+</ul>
