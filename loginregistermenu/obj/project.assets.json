@@ -4131,11 +4131,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ul13m\\source\\repos\\loginregistermenu\\loginregistermenu\\loginregistermenu.csproj",
+      "projectUniqueName": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\loginregistermenu.csproj",
       "projectName": "loginregistermenu",
-      "projectPath": "C:\\Users\\ul13m\\source\\repos\\loginregistermenu\\loginregistermenu\\loginregistermenu.csproj",
+      "projectPath": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\loginregistermenu.csproj",
       "packagesPath": "C:\\Users\\ul13m\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ul13m\\source\\repos\\loginregistermenu\\loginregistermenu\\obj\\",
+      "outputPath": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

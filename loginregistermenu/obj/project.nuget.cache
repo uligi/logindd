@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "icNBXnhWB80=",
+  "dgSpecHash": "boJIW7sJfuU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ul13m\\source\\repos\\loginregistermenu\\loginregistermenu\\loginregistermenu.csproj",
+  "projectFilePath": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\loginregistermenu.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ul13m\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ul13m\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

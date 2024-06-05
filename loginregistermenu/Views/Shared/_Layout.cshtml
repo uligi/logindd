@@ -1,5 +1,6 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,27 +20,27 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
                         </li>
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
                                 <form asp-controller="Users" asp-action="Logout" method="post" class="form-inline">
-                                    <button type="submit" class="btn btn-link nav-link text-dark">Logout</button>
+                                    <button type="submit" class="btn btn-link nav-link text-dark">Cerrar Sesión</button>
                                 </form>
                             </li>
                         }
                         else
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Login">Login</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Login">Iniciar Sesión</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Register">Register</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Register">Registrarse</a>
                             </li>
                         }
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacidad</a>
                         </li>
                     </ul>
                 </div>
@@ -54,7 +55,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2024 - DUNAMIS SA - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2024 - DUNAMIS SA - <a asp-area="" asp-page="/Privacy">Privacidad</a>
         </div>
     </footer>
 
@@ -65,3 +66,4 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+```
