@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\loginregistermenu.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
       "Id": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

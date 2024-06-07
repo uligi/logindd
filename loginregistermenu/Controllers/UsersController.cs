@@ -62,9 +62,9 @@ namespace loginregistermenu.Controllers
                     new Claim(ClaimTypes.Role, user.Role)
                 };
 
-                var claimsIdentity = new ClaimsIdentity(claims, "CookieAuth");
+                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
 
-                await HttpContext.SignInAsync("CookieAuth", new ClaimsPrincipal(claimsIdentity));
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
 
                 return RedirectToAction("Index", "Home");
             }
@@ -76,7 +76,7 @@ namespace loginregistermenu.Controllers
         [HttpPost]
         public async Task<IActionResult> Logout()
         {
-            await HttpContext.SignOutAsync("CookieAuth");
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Login", "Users");
         }
     }
