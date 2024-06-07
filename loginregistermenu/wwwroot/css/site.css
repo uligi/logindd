@@ -11,17 +11,13 @@ body {
     flex-direction: column;
 }
 
-header {
-    /* Mantén los estilos que ya tienes para el header */
-}
-
 main {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin-top: 60px; /* Añade un margen superior para separar del header */
+    margin-top: 60px; 
 }
 
 .container {
