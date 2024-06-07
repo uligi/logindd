@@ -2,12 +2,24 @@
 @{
     ViewData["Title"] = "Inicio";
 }
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PH.SA</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/custom.css" />
+</head>
+<body>
 <div class="jumbotron text-center">
-    <h1 class="display-4">Bienvenido a DUNAMIS SA</h1>
-    <p class="lead">Su socio confiable en soluciones de transporte.</p>
+    <h1 class="display-4">Bienvenido a PH.SA</h1>
+    <p class="lead">Su socio confiable en a la hora de comprar productos.</p>
     <hr class="my-4" />
-    <p>Proveemos sistemas de gestión de tarifas de transporte completos y eficientes.</p>
+    <p>Contamos con una variedad extensa en productos que van desde la A a la Z.</p>
     <a class="btn btn-primary btn-lg" asp-controller="Users" asp-action="Login" role="button">Iniciar Sesión</a>
     <a class="btn btn-secondary btn-lg" asp-controller="Users" asp-action="Register" role="button">Registrarse</a>
 </div>
+</body>
+</html>
