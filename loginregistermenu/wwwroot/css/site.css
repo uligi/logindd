@@ -60,17 +60,19 @@ input, select {
     }
 
 button {
-    background-color: #ed2860;
-    color: white;
+    background-color: #F480A1;
+    color: black;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1em;
+    font-weight: bold;
 }
 
     button:hover {
         background-color: #990069;
+        color: white;
     }
 
     button:active {
