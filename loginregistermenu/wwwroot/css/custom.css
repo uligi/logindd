@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
 .jumbotron {
     color: black !important;
     padding: 2rem 1rem;
@@ -47,3 +48,7 @@ body {
     .jumbotron hr {
         border-top: 1px solid #ffffff;
     }
+
+
+
+
