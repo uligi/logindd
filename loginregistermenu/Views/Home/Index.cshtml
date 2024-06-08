@@ -13,13 +13,16 @@
     <link rel="stylesheet" href="~/css/custom.css" />
 </head>
 <body>
-<div class="jumbotron text-center">
-    <h1 class="display-4">Bienvenido a PH.SA</h1>
-    <p class="lead">Su socio confiable en a la hora de comprar productos.</p>
-    <hr class="my-4" />
-    <p>Contamos con una variedad extensa en productos que van desde la A a la Z.</p>
-    <a class="btn btn-primary btn-lg" asp-controller="Users" asp-action="Login" role="button">Iniciar Sesión</a>
-    <a class="btn btn-secondary btn-lg" asp-controller="Users" asp-action="Register" role="button">Registrarse</a>
-</div>
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Bienvenido a PH.SA</h1>
+        <p class="lead">Su socio confiable a la hora de comprar productos.</p>
+        <hr class="my-4" />
+        <p>Contamos con una variedad extensa en productos que van desde la A a la Z.</p>
+        @if (!User.Identity.IsAuthenticated)
+        {
+            <a class="btn btn-primary btn-lg" asp-controller="Users" asp-action="Login" role="button">Iniciar Sesión</a>
+            <a class="btn btn-secondary btn-lg" asp-controller="Users" asp-action="Register" role="button">Registrarse</a>
+        }
+    </div>
 </body>
 </html>

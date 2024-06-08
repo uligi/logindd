@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UrH9sh3cKL1pxYUlul25MgmysqYaFjOj2pkE8o6Jm3I=",
+  "Hash": "Ki4rxASGFhV+eUJBpkGnprfJ13I6v3NGr1IrPIJqZGI=",
   "Source": "loginregistermenu",
   "BasePath": "_content/loginregistermenu",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\loginregistermenu.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\wwwroot\\css\\custom.css",
+      "SourceId": "loginregistermenu",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\wwwroot\\",
+      "BasePath": "_content/loginregistermenu",
+      "RelativePath": "css/custom.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\custom.css"
     },
     {
       "Identity": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\wwwroot\\css\\site.css",
