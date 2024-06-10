@@ -9,6 +9,8 @@ namespace loginregistermenu.Data
         {
         }
 
-        public DbSet<User> Users { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Producto> Productos { get; set; }
+        public DbSet<Empleado> Empleados { get; set; }
     }
 }

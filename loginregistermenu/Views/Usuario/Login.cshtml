@@ -3,21 +3,20 @@
     ViewData["Title"] = "Iniciar Sesión";
 }
 
-
 <center>
     <h2>Iniciar Sesión</h2>
 
     <form method="post">
         <div>
-            <label asp-for="Email"></label>
-            <input asp-for="Email" />
+            <label asp-for="Correo"></label>
+            <input asp-for="Correo" />
         </div>
         <div>
-            <label asp-for="Password"></label>
-            <input asp-for="Password" type="password" />
+            <label asp-for="Contrasena"></label>
+            <input asp-for="Contrasena" type="password" />
         </div>
         <button type="submit">Iniciar Sesión</button>
         <br /> <br />
-        <a asp-controller="Users" asp-action="Register">Registrarse</a>
+        <a asp-controller="Usuario" asp-action="RegistrarUsuario">Registrarse</a>
     </form>
 </center>

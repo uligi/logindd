@@ -30,29 +30,64 @@
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             @if (User.Identity.IsAuthenticated)
                             {
+                                @if (User.IsInRole("admin"))
+                                {
+                                    <li class="nav-item">
+                                        <form method="post" asp-controller="Empleados" asp-action="RegistrarEmpleado">
+                                            <center>
+                                                <button type="submit" class="nav-link btn btn-link" 
+                                                        style="background-color: #F480A1; color: black; 
+                                                        padding: 10px 20px; border: 10px; cursor: pointer;
+                                                        text-decoration: none; display: inline-block; 
+                                                        border-radius: 5px; height: 40px; line-height: 20px;">
+                                                    Registrar Empleado
+                                                </button>
+                                            </center>
+                                        </form>
+                                    </li>
+                                    <li class="nav-item">
+                                        <form method="post" asp-controller="Productos" asp-action="RegistrarProducto">
+                                            <center>
+                                                <button type="submit" class="nav-link btn btn-link"
+                                                        style="background-color: #F480A1; color: black;
+                                                        padding: 10px 20px; border: 10px; cursor: pointer;
+                                                        text-decoration: none; display: inline-block;
+                                                        border-radius: 5px; height: 40px; line-height: 20px;">
+                                                    Registrar Producto
+                                                </button>
+                                            </center>
+                                        </form>
+                                    </li>
+
+                                }
                                 <li class="nav-item">
-                                    <form method="post" asp-controller="Users" asp-action="Logout">
-                                      <center> <button type="submit" class="nav-link btn btn-link" style="background-color: #F480A1; color: black; padding: 10px 20px; border: none; cursor: pointer; text-decoration: none; display: inline-block; border-radius: 5px; height: 40px; line-height: 20px;">
-                                            Cerrar sesión
-                                        </button>
+                                    <form method="post" asp-controller="Usuario" asp-action="Logout">
+                                        <center>
+                                            <button type="submit" class="nav-link btn btn-link"
+                                                    style="background-color: #F480A1; color: black;
+                                                        padding: 10px 20px; border: 10px; cursor: pointer;
+                                                        text-decoration: none; display: inline-block;
+                                                        border-radius: 5px; height: 40px; line-height: 20px;">
+                                                Cerrar sesión
+                                            </button>
                                         </center>
                                     </form>
                                 </li>
-
                             }
+
                             else
                             {
                                 <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Users" asp-action="Register" style="color: #000;">Registrarse</a>
+                                    <a class="nav-link" asp-controller="Usuario" asp-action="RegistrarUsuario" style="color: #000;">Registrarse</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Users" asp-action="Login" style="color: #000;">Iniciar Sesión</a>
+                                    <a class="nav-link" asp-controller="Usuario" asp-action="Login" style="color: #000;">Iniciar Sesión</a>
                                 </li>
                             }
                         </ul>
                         <form class="d-flex mt-3" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-success" type="submit" style="background-color: #ED2860; border-color: #ED2860;">Search</button>
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                            <button class="btn btn-success" type="submit" style="background-color: #ED2860; border-color: #ED2860;">Buscar</button>
                         </form>
                     </div>
                 </div>

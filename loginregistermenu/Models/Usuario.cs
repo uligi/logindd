@@ -2,13 +2,13 @@
 
 namespace loginregistermenu.Models
 {
-    public class User
+    public class Usuario
     {
         public int Id { get; set; }
 
         [Required]
         [StringLength(100)]
-        public string Name { get; set; }
+        public string Nombre { get; set; }
 
         [Required]
         [StringLength(100)]
@@ -17,14 +17,14 @@ namespace loginregistermenu.Models
         [Required]
         [EmailAddress]
         [StringLength(100)]
-        public string Email { get; set; }
+        public string Correo { get; set; }
 
         [Required]
         [StringLength(255)]
-        public string Password { get; set; }
+        public string Contrasena { get; set; }
 
         [Required]
         [StringLength(50)]
-        public string Role { get; set; }
+        public string Rol { get; set; }
     }
 }

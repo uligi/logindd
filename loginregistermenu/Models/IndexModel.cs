@@ -6,7 +6,7 @@ namespace loginregistermenu.Models
     {
         public void OnGet()
         {
-            // Aquí puedes agregar cualquier lógica adicional que necesites.
+            //
         }
     }
 }
