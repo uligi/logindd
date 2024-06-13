@@ -1,0 +1,340 @@
+//***************InsertarPersona****************//
+USE sales_system;
+GO
+
+CREATE PROCEDURE InsertarPersona
+    @Nombre VARCHAR(255),
+    @Apellido VARCHAR(255),
+    @FechaNacimiento DATE,
+    @GeneroID INT,
+    @EstadoCivilID INT,
+    @EstadoPersonaID INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    INSERT INTO Persona (Nombre, Apellido, FechaNacimiento, GeneroID, EstadoCivilID, EstadoPersonaID)
+    VALUES (@Nombre, @Apellido, @FechaNacimiento, @GeneroID, @EstadoCivilID, @EstadoPersonaID);
+END;
+GO
+
+
+//***************InsertarUsuario****************//
+
+USE sales_system;
+GO
+
+CREATE PROCEDURE InsertarUsuario
+    @NombreUsuario VARCHAR(255),
+    @Contraseña VARCHAR(255),
+    @Email VARCHAR(255),
+    @Telefono VARCHAR(20),
+    @TipoUsuarioID INT,
+    @PersonaID INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    INSERT INTO Usuario (NombreUsuario, Contraseña, Email, Telefono, TipoUsuarioID, PersonaID)
+    VALUES (@NombreUsuario, @Contraseña, @Email, @Telefono, @TipoUsuarioID, @PersonaID);
+END;
+GO
+
+//***************InsertarProducto****************//
+
+CREATE PROCEDURE InsertarProducto
+    @Nombre VARCHAR(255),
+    @Descripcion TEXT,
+    @Precio DECIMAL(10, 2),
+    @CantidadEnStock INT,
+    @FechaIngreso DATE,
+    @CategoriaID INT,
+    @TipoProductoID INT
+AS
+BEGIN
+    INSERT INTO Producto (Nombre, Descripcion, Precio, CantidadEnStock, FechaIngreso, CategoriaID, TipoProductoID)
+    VALUES (@Nombre, @Descripcion, @Precio, @CantidadEnStock, @FechaIngreso, @CategoriaID, @TipoProductoID);
+END;
+
+//***************InsertarFactura****************//
+
+USE sales_system;
+GO
+
+CREATE PROCEDURE InsertarFactura
+    @ClienteID INT,
+    @FechaEmision DATETIME,
+    @TotalFactura DECIMAL(10, 2),
+    @EstadoFacturaID INT,
+    @MetodoPagoID INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    INSERT INTO Facturas (ClienteID, FechaEmision, TotalFactura, EstadoFacturaID, MetodoPagoID)
+    VALUES (@ClienteID, @FechaEmision, @TotalFactura, @EstadoFacturaID, @MetodoPagoID);
+END;
+GO
+
+//***************InsertarDetalleFactura****************//
+
+USE sales_system;
+GO
+
+CREATE PROCEDURE InsertarDetalleFactura
+    @FacturaID INT,
+    @ProductoID INT,
+    @Cantidad INT,
+    @PrecioUnitario DECIMAL(10, 2),
+    @Subtotal DECIMAL(10, 2)
+AS
+BEGIN
+    SET NOCOUNT ON;
+    INSERT INTO DetalleFactura (FacturaID, ProductoID, Cantidad, PrecioUnitario, Subtotal)
+    VALUES (@FacturaID, @ProductoID, @Cantidad, @PrecioUnitario, @Subtotal);
+END;
+GO
+
+//***************InsertarCarrito****************//
+
+USE sales_system;
+GO
+
+CREATE PROCEDURE InsertarCarrito
+    @ClienteID INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    INSERT INTO Carrito (ClienteID)
+    VALUES (@ClienteID);
+END;
+GO
+
+//***************InsertarReseña****************//
+USE sales_system;
+GO
+
+CREATE PROCEDURE InsertarReseña
+    @ProductoID INT,
+    @ClienteID INT,
+    @Calificacion INT,
+    @Comentario TEXT,
+    @FechaReseña DATETIME
+AS
+BEGIN
+    SET NOCOUNT ON;
+    INSERT INTO Reseñas (ProductoID, ClienteID, Calificacion, Comentario, FechaReseña)
+    VALUES (@ProductoID, @ClienteID, @Calificacion, @Comentario, @FechaReseña);
+END;
+GO
+
+//***************InsertarDireccion****************//
+USE sales_system;
+GO
+
+CREATE PROCEDURE InsertarDireccion
+    @UsuarioID INT,
+    @Direccion VARCHAR(255),
+    @Ciudad VARCHAR(100),
+    @Estado VARCHAR(100),
+    @CodigoPostal VARCHAR(20),
+    @Pais VARCHAR(100),
+    @TipoDireccionID INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    INSERT INTO Direcciones (UsuarioID, Direccion, Ciudad, Estado, CodigoPostal, Pais, TipoDireccionID)
+    VALUES (@UsuarioID, @Direccion, @Ciudad, @Estado, @CodigoPostal, @Pais, @TipoDireccionID);
+END;
+GO
+
+//***************InsertarTelefono****************//
+
+USE sales_system;
+GO
+
+CREATE PROCEDURE InsertarTelefono
+    @PersonaID INT,
+    @TipoTelefonoID INT,
+    @NumeroTelefono VARCHAR(20)
+AS
+BEGIN
+    SET NOCOUNT ON;
+    INSERT INTO Telefono (PersonaID, TipoTelefonoID, NumeroTelefono)
+    VALUES (@PersonaID, @TipoTelefonoID, @NumeroTelefono);
+END;
+GO
+
+//***************InsertarCorreo****************//
+
+USE sales_system;
+GO
+
+CREATE PROCEDURE InsertarCorreo
+    @PersonaID INT,
+    @TipoCorreoID INT,
+    @DireccionCorreo VARCHAR(255)
+AS
+BEGIN
+    SET NOCOUNT ON;
+    INSERT INTO Correo (PersonaID, TipoCorreoID, DireccionCorreo)
+    VALUES (@PersonaID, @TipoCorreoID, @DireccionCorreo);
+END;
+GO
+
+//***************InsertarDetalleCorreo****************//
+USE sales_system;
+GO
+
+CREATE PROCEDURE InsertarDetalleCorreo
+    @CorreoID INT,
+    @Detalle TEXT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    INSERT INTO Detalle_Correo (CorreoID, Detalle)
+    VALUES (@CorreoID, @Detalle);
+END;
+GO
+
+//***************InsertarEmpleado****************//
+
+USE sales_system;
+GO
+
+CREATE PROCEDURE InsertarEmpleado
+    @PersonaID INT,
+    @PuestoID INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    INSERT INTO Empleado (PersonaID, PuestoID)
+    VALUES (@PersonaID, @PuestoID);
+END;
+GO
+
+//***************InsertarVenta****************//
+USE sales_system;
+GO
+
+CREATE PROCEDURE InsertarVenta
+    @ClienteID INT,
+    @FechaVenta DATETIME,
+    @TotalVenta DECIMAL(10, 2),
+    @FacturaID INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    INSERT INTO Ventas (ClienteID, FechaVenta, TotalVenta, FacturaID)
+    VALUES (@ClienteID, @FechaVenta, @TotalVenta, @FacturaID);
+END;
+GO
+
+//***************InsertarDetalleVenta****************//
+USE sales_system;
+GO
+
+CREATE PROCEDURE InsertarDetalleVenta
+    @VentaID INT,
+    @ProductoID INT,
+    @Cantidad INT,
+    @PrecioUnitario DECIMAL(10, 2),
+    @Total DECIMAL(10, 2)
+AS
+BEGIN
+    SET NOCOUNT ON;
+    INSERT INTO Detalle_Ventas (VentaID, ProductoID, Cantidad, PrecioUnitario, Total)
+    VALUES (@VentaID, @ProductoID, @Cantidad, @PrecioUnitario, @Total);
+END;
+GO
+
+//***************InsertarPedido****************//
+USE sales_system;
+GO
+
+CREATE PROCEDURE InsertarPedido
+    @ClienteID INT,
+    @FechaPedido DATETIME,
+    @EstadoPedidoID INT,
+    @TotalPedido DECIMAL(10, 2),
+    @DireccionEnvioID INT,
+    @MetodoPagoID INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    INSERT INTO Pedidos (ClienteID, FechaPedido, EstadoPedidoID, TotalPedido, DireccionEnvioID, MetodoPagoID)
+    VALUES (@ClienteID, @FechaPedido, @EstadoPedidoID, @TotalPedido, @DireccionEnvioID, @MetodoPagoID);
+END;
+GO
+
+
+//***************InsertarDetallePedido****************//
+USE sales_system;
+GO
+
+CREATE PROCEDURE InsertarDetallePedido
+    @PedidoID INT,
+    @ProductoID INT,
+    @Cantidad INT,
+    @PrecioUnitario DECIMAL(10, 2),
+    @Subtotal DECIMAL(10, 2)
+AS
+BEGIN
+    SET NOCOUNT ON;
+    INSERT INTO Detalle_Pedido (PedidoID, ProductoID, Cantidad, PrecioUnitario, Subtotal)
+    VALUES (@PedidoID, @ProductoID, @Cantidad, @PrecioUnitario, @Subtotal);
+END;
+GO
+
+//***************InsertarInventario****************//
+USE sales_system;
+GO
+
+CREATE PROCEDURE InsertarInventario
+    @ProductoID INT,
+    @Cantidad INT,
+    @FechaTransaccion DATETIME,
+    @TipoTransaccionID INT,
+    @EmpleadoID INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    INSERT INTO Inventario (ProductoID, Cantidad, FechaTransaccion, TipoTransaccionID, EmpleadoID)
+    VALUES (@ProductoID, @Cantidad, @FechaTransaccion, @TipoTransaccionID, @EmpleadoID);
+END;
+GO
+
+//***************InsertarPago****************//
+USE sales_system;
+GO
+
+CREATE PROCEDURE InsertarPago
+    @PedidoID INT,
+    @FechaPago DATETIME,
+    @Monto DECIMAL(10, 2),
+    @MetodoPagoID INT,
+    @EstadoPagoID INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    INSERT INTO Pagos (PedidoID, FechaPago, Monto, MetodoPagoID, EstadoPagoID)
+    VALUES (@PedidoID, @FechaPago, @Monto, @MetodoPagoID, @EstadoPagoID);
+END;
+GO
+
+//***************InsertarEnvio****************//
+USE sales_system;
+GO
+
+CREATE PROCEDURE InsertarEnvio
+    @PedidoID INT,
+    @FechaEnvio DATETIME,
+    @FechaEntrega DATETIME,
+    @EstadoEnvioID INT,
+    @ProveedorEnvio VARCHAR(255),
+    @NumeroSeguimiento VARCHAR(255)
+AS
+BEGIN
+    SET NOCOUNT ON;
+    INSERT INTO Envios (PedidoID, FechaEnvio, FechaEntrega, EstadoEnvioID, ProveedorEnvio, NumeroSeguimiento)
+    VALUES (@PedidoID, @FechaEnvio, @FechaEntrega, @EstadoEnvioID, @ProveedorEnvio, @NumeroSeguimiento);
+END;
+GO
+

@@ -1,0 +1,14 @@
+INSERT INTO Persona (Nombre, Apellido, FechaNacimiento, GeneroID, EstadoCivilID, EstadoPersonaID)
+VALUES ('Kevin Ulises', 'Mesen Villarevia', '1992-01-09', 
+    (SELECT GeneroID FROM Genero WHERE Nombre = 'Masculino'),
+    (SELECT EstadoCivilID FROM Estado_Civil WHERE Nombre = 'Soltero'),
+    (SELECT EstadoPersonaID FROM Estado_Persona WHERE Nombre = 'Activo'));
+
+INSERT INTO Usuario (NombreUsuario, Contraseña, Email, Telefono, TipoUsuarioID, PersonaID)
+VALUES ('uli', '123456', 'uli@gmail.com', '555-5555', 
+    (SELECT TipoUsuarioID FROM Tipo_Usuario WHERE Nombre = 'Empleado'),
+    (SELECT MAX(PersonaID) FROM Persona));
+
+INSERT INTO Empleado (PersonaID, PuestoID)
+VALUES ((SELECT MAX(PersonaID) FROM Persona),
+        (SELECT PuestoID FROM Puesto_Empleado WHERE Nombre = 'Administrador'));

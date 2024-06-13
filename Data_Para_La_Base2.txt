@@ -1,0 +1,122 @@
+INSERT INTO Genero (Nombre) VALUES 
+('Masculino'),
+('Femenino'),
+('Prefiere no decirlo');
+
+
+INSERT INTO Categoria (Nombre, Descripcion) VALUES 
+('Electrónica', 'Dispositivos y aparatos electrónicos'),
+('Ropa', 'Vestimenta y accesorios de moda'),
+('Hogar', 'Artículos para el hogar y muebles'),
+('Libros', 'Libros y material de lectura'),
+('Juguetes', 'Juguetes y juegos para niños'),
+('Deportes', 'Equipo y ropa deportiva'),
+('Belleza', 'Productos de belleza y cuidado personal'),
+('Alimentos', 'Productos alimenticios y bebidas'),
+('Automotriz', 'Accesorios y repuestos para vehículos'),
+('Herramientas', 'Herramientas y equipo para bricolaje y construcción');
+
+INSERT INTO Estado_Civil (Nombre) VALUES 
+('Soltero'),
+('Casado'),
+('Divorciado'),
+('Viudo'),
+('Unión Libre');
+
+INSERT INTO Estado_Persona (Nombre) VALUES 
+('Activo'),
+('Inactivo');
+
+INSERT INTO Tipo_Producto (Nombre) VALUES 
+('Electrónico'),
+('Ropa'),
+('Mueble'),
+('Libro'),
+('Juguete'),
+('Deporte'),
+('Belleza'),
+('Alimento'),
+('Automotriz'),
+('Herramienta');
+
+INSERT INTO Metodo_Pago (Nombre) VALUES 
+('Tarjeta de Crédito'),
+('Tarjeta de Débito'),
+('PayPal'),
+('Transferencia Bancaria'),
+('Efectivo'),
+('Criptomoneda');
+
+INSERT INTO Estado_Factura (Nombre) VALUES 
+('Pagada'),
+('Pendiente'),
+('Cancelada'),
+('Vencida');
+
+
+INSERT INTO Estado_Pago (Nombre) VALUES 
+('Completado'),
+('Pendiente'),
+('Fallido'),
+('Reembolsado');
+
+INSERT INTO Estado_Pedido (Nombre) VALUES 
+('Pendiente'),
+('Procesando'),
+('Enviado'),
+('Entregado'),
+('Cancelado');
+
+INSERT INTO Tipo_Direccion (Nombre) VALUES 
+('Residencial'),
+('Comercial'),
+('Facturación'),
+('Envío');
+
+
+INSERT INTO Tipo_Usuario (Nombre) VALUES 
+('Administrador'),
+('Empleado'),
+('Cliente');
+
+INSERT INTO Tipo_Correo (Nombre) VALUES 
+('Personal'),
+('Trabajo'),
+('Otro');
+
+INSERT INTO Tipo_Telefono (Nombre) VALUES 
+('Móvil'),
+('Fijo'),
+('Trabajo'),
+('Fax');
+
+INSERT INTO Tipo_Correo (Nombre) VALUES 
+('Personal'),
+('Trabajo'),
+('Otro');
+
+INSERT INTO Envio_Estado (Nombre) VALUES 
+('Pendiente'),
+('Enviado'),
+('En tránsito'),
+('Entregado'),
+('Devuelto');
+
+
+INSERT INTO Puesto_Empleado (Nombre) VALUES 
+('Gerente'),
+('Subgerente'),
+('Supervisor'),
+('Cajero'),
+('Vendedor'),
+('Almacenero'),
+('Personal de Limpieza'),
+('Recepcionista'),
+('Técnico de Soporte'),
+('Desarrollador de Software');
+
+INSERT INTO Tipo_Transaccion (Nombre) VALUES 
+('Ingreso'),
+('Salida'),
+('Ajuste'),
+('Transferencia');

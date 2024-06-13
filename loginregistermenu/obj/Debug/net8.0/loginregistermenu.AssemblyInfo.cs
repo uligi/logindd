@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("loginregistermenu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a586d1790eda5aa5086bd1dc5552d84745cfc31f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19afebdc1575ded0108403695bbbf9f975ddce2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("loginregistermenu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("loginregistermenu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
