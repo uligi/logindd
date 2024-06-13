@@ -1,4 +1,4 @@
-﻿@model loginregistermenu.Models.Usuario
+﻿@model loginregistermenu.Models.UsuarioRegistroViewModel
 
 @{
     ViewData["Title"] = "Registrarse";
@@ -8,20 +8,52 @@
 
 <form asp-action="RegistrarUsuario" method="post">
     <div class="form-group">
-        <label asp-for="Nombre"></label>
-        <input asp-for="Nombre" class="form-control" />
+        <label asp-for="Usuario.Nombre"></label>
+        <input asp-for="Usuario.Nombre" class="form-control" />
     </div>
     <div class="form-group">
-        <label asp-for="Cedula"></label>
-        <input asp-for="Cedula" class="form-control" />
+        <label asp-for="Usuario.Cedula"></label>
+        <input asp-for="Usuario.Cedula" class="form-control" />
     </div>
     <div class="form-group">
-        <label asp-for="Correo"></label>
-        <input asp-for="Correo" class="form-control" />
+        <label asp-for="Usuario.Correo"></label>
+        <input asp-for="Usuario.Correo" class="form-control" />
     </div>
     <div class="form-group">
-        <label asp-for="Contrasena"></label>
-        <input asp-for="Contrasena" type="password" class="form-control" />
+        <label asp-for="Usuario.Contrasena"></label>
+        <input asp-for="Usuario.Contrasena" type="password" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Persona.FechaNacimiento"></label>
+        <input asp-for="Persona.FechaNacimiento" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Persona.GeneroID"></label>
+        <select asp-for="Persona.GeneroID" class="form-control" asp-items="@(new SelectList(Model.Generos, "GeneroID", "Nombre"))"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Telefonos[0].NumeroTelefono"></label>
+        <input asp-for="Telefonos[0].NumeroTelefono" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Telefonos[0].TipoTelefonoID"></label>
+        <select asp-for="Telefonos[0].TipoTelefonoID" class="form-control" asp-items="@(new SelectList(ViewData["TipoTelefonos"] as IEnumerable<loginregistermenu.Models.Tipo_Telefono>, "TipoTelefonoID", "Nombre"))"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Direcciones[0].DireccionDetalle"></label>
+        <input asp-for="Direcciones[0].DireccionDetalle" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Direcciones[0].TipoDireccionID"></label>
+        <select asp-for="Direcciones[0].TipoDireccionID" class="form-control" asp-items="@(new SelectList(ViewData["TipoDirecciones"] as IEnumerable<loginregistermenu.Models.Tipo_Direccion>, "TipoDireccionID", "Nombre"))"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Correos[0].DireccionCorreo"></label>
+        <input asp-for="Correos[0].DireccionCorreo" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Correos[0].TipoCorreoID"></label>
+        <select asp-for="Correos[0].TipoCorreoID" class="form-control" asp-items="@(new SelectList(ViewData["TipoCorreos"] as IEnumerable<loginregistermenu.Models.Tipo_Correo>, "TipoCorreoID", "Nombre"))"></select>
     </div>
     <button type="submit" class="btn btn-primary">Registrarse</button>
 </form>

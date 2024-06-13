@@ -338,3 +338,104 @@ BEGIN
 END;
 GO
 
+//***************InsertarUsuarioCompleto****************//
+CREATE PROCEDURE InsertarUsuarioCompleto
+    @Nombre NVARCHAR(100),
+    @Apellido NVARCHAR(100),
+    @FechaNacimiento DATE,
+    @GeneroID INT,
+    @EstadoCivilID INT,
+    @EstadoPersonaID INT,
+    @NombreUsuario NVARCHAR(100),
+    @Contrasena NVARCHAR(255),
+    @Email NVARCHAR(100),
+    @Telefono NVARCHAR(20),
+    @TipoUsuarioID INT,
+    @TipoTelefonoID INT,
+    @TipoCorreoID INT
+AS
+BEGIN
+    BEGIN TRANSACTION;
+
+    BEGIN TRY
+        -- Insertar en Persona
+        INSERT INTO Persona (Nombre, Apellido, FechaNacimiento, GeneroID, EstadoCivilID, EstadoPersonaID)
+        VALUES (@Nombre, @Apellido, @FechaNacimiento, @GeneroID, @EstadoCivilID, @EstadoPersonaID);
+
+        DECLARE @PersonaID INT;
+        SET @PersonaID = SCOPE_IDENTITY();
+
+        -- Insertar en Usuario
+        INSERT INTO Usuario (NombreUsuario, Contrasena, Email, Telefono, TipoUsuarioID, PersonaID)
+        VALUES (@NombreUsuario, @Contrasena, @Email, @Telefono, @TipoUsuarioID, @PersonaID);
+
+        -- Insertar en Telefono
+        INSERT INTO Telefono (PersonaID, NumeroTelefono, TipoTelefonoID)
+        VALUES (@PersonaID, @Telefono, @TipoTelefonoID);
+
+        -- Insertar en Correo
+        INSERT INTO Correo (PersonaID, DireccionCorreo, TipoCorreoID)
+        VALUES (@PersonaID, @Email, @TipoCorreoID);
+
+        COMMIT TRANSACTION;
+    END TRY
+    BEGIN CATCH
+        ROLLBACK TRANSACTION;
+        THROW;
+    END CATCH;
+END;
+GO
+
+
+//***************InsertarEmpleadoCompleto****************//
+CREATE PROCEDURE InsertarEmpleadoCompleto
+    @Nombre NVARCHAR(100),
+    @Apellido NVARCHAR(100),
+    @FechaNacimiento DATE,
+    @GeneroID INT,
+    @EstadoCivilID INT,
+    @EstadoPersonaID INT,
+    @NombreUsuario NVARCHAR(100),
+    @Contrasena NVARCHAR(255),
+    @Email NVARCHAR(100),
+    @Telefono NVARCHAR(20),
+    @TipoUsuarioID INT,
+    @TipoTelefonoID INT,
+    @TipoCorreoID INT,
+    @PuestoID INT
+AS
+BEGIN
+    BEGIN TRANSACTION;
+
+    BEGIN TRY
+        -- Insertar en Persona
+        INSERT INTO Persona (Nombre, Apellido, FechaNacimiento, GeneroID, EstadoCivilID, EstadoPersonaID)
+        VALUES (@Nombre, @Apellido, @FechaNacimiento, @GeneroID, @EstadoCivilID, @EstadoPersonaID);
+
+        DECLARE @PersonaID INT;
+        SET @PersonaID = SCOPE_IDENTITY();
+
+        -- Insertar en Usuario
+        INSERT INTO Usuario (NombreUsuario, Contraseña, Email, Telefono, TipoUsuarioID, PersonaID)
+        VALUES (@NombreUsuario, @Contrasena, @Email, @Telefono, @TipoUsuarioID, @PersonaID);
+
+        -- Insertar en Telefono
+        INSERT INTO Telefono (PersonaID, NumeroTelefono, TipoTelefonoID)
+        VALUES (@PersonaID, @Telefono, @TipoTelefonoID);
+
+        -- Insertar en Correo
+        INSERT INTO Correo (PersonaID, DireccionCorreo, TipoCorreoID)
+        VALUES (@PersonaID, @Email, @TipoCorreoID);
+
+        -- Insertar en Empleado
+        INSERT INTO Empleado (PersonaID, PuestoID)
+        VALUES (@PersonaID, @PuestoID);
+
+        COMMIT TRANSACTION;
+    END TRY
+    BEGIN CATCH
+        ROLLBACK TRANSACTION;
+        THROW;
+    END CATCH;
+END;
+GO

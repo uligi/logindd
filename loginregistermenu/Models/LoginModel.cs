@@ -6,10 +6,10 @@ namespace loginregistermenu.Models
     {
         [Required]
         [EmailAddress]
-        public string Correo { get; set; }
+        public string Correo { get; set; } = string.Empty;
 
         [Required]
         [DataType(DataType.Password)]
-        public string Contrasena { get; set; }
+        public string Contrasena { get; set; } = string.Empty;
     }
 }

@@ -8,20 +8,32 @@
 
 <form asp-action="RegistrarEmpleado" method="post">
     <div class="form-group">
-        <label asp-for="Nombre"></label>
-        <input asp-for="Nombre" class="form-control" />
+        <label asp-for="Persona.Nombre"></label>
+        <input asp-for="Persona.Nombre" class="form-control" />
     </div>
     <div class="form-group">
-        <label asp-for="Apellido"></label>
-        <input asp-for="Apellido" class="form-control" />
+        <label asp-for="Persona.Apellido"></label>
+        <input asp-for="Persona.Apellido" class="form-control" />
     </div>
     <div class="form-group">
-        <label asp-for="Correo"></label>
-        <input asp-for="Correo" class="form-control" />
+        <label asp-for="Persona.FechaNacimiento"></label>
+        <input asp-for="Persona.FechaNacimiento" class="form-control" />
     </div>
     <div class="form-group">
-        <label asp-for="Posicion"></label>
-        <input asp-for="Posicion" class="form-control" />
+        <label asp-for="Persona.GeneroID"></label>
+        <select asp-for="Persona.GeneroID" class="form-control" asp-items="@(new SelectList(ViewData["Generos"] as IEnumerable<loginregistermenu.Models.Genero>, "GeneroID", "Nombre"))"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Persona.EstadoCivilID"></label>
+        <select asp-for="Persona.EstadoCivilID" class="form-control" asp-items="@(new SelectList(ViewData["EstadoCiviles"] as IEnumerable<loginregistermenu.Models.Estado_Civil>, "EstadoCivilID", "Nombre"))"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Persona.EstadoPersonaID"></label>
+        <select asp-for="Persona.EstadoPersonaID" class="form-control" asp-items="@(new SelectList(ViewData["EstadoPersonas"] as IEnumerable<loginregistermenu.Models.Estado_Persona>, "EstadoPersonaID", "Nombre"))"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="PuestoID"></label>
+        <select asp-for="PuestoID" class="form-control" asp-items="@(new SelectList(ViewData["PuestosEmpleados"] as IEnumerable<loginregistermenu.Models.Puesto_Empleado>, "PuestoID", "Nombre"))"></select>
     </div>
     <button type="submit" class="btn btn-primary">Registrar</button>
 </form>

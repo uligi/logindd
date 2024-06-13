@@ -1,0 +1,64 @@
+﻿@model loginregistermenu.Models.UsuarioPerfilViewModel
+
+@{
+    ViewData["Title"] = "Editar Perfil";
+}
+
+<h2>Editar Perfil</h2>
+
+<form asp-action="EditarPerfil" method="post">
+    <div class="form-group">
+        <label asp-for="Usuario.Nombre"></label>
+        <input asp-for="Usuario.Nombre" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Usuario.Cedula"></label>
+        <input asp-for="Usuario.Cedula" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Usuario.Correo"></label>
+        <input asp-for="Usuario.Correo" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Persona.FechaNacimiento"></label>
+        <input asp-for="Persona.FechaNacimiento" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Persona.GeneroID"></label>
+        <select asp-for="Persona.GeneroID" class="form-control" asp-items="@(new SelectList(ViewData["Generos"] as IEnumerable<loginregistermenu.Models.Genero>, "GeneroID", "Nombre"))"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Persona.EstadoCivilID"></label>
+        <select asp-for="Persona.EstadoCivilID" class="form-control" asp-items="@(new SelectList(ViewData["EstadoCiviles"] as IEnumerable<loginregistermenu.Models.Estado_Civil>, "EstadoCivilID", "Nombre"))"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Persona.EstadoPersonaID"></label>
+        <select asp-for="Persona.EstadoPersonaID" class="form-control" asp-items="@(new SelectList(ViewData["EstadoPersonas"] as IEnumerable<loginregistermenu.Models.Estado_Persona>, "EstadoPersonaID", "Nombre"))"></select>
+    </div>
+
+    @for (int i = 0; i < Model.Telefonos.Count; i++)
+    {
+        <div class="form-group">
+            <label asp-for="Telefonos[i].NumeroTelefono"></label>
+            <input asp-for="Telefonos[i].NumeroTelefono" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Telefonos[i].TipoTelefonoID"></label>
+            <select asp-for="Telefonos[i].TipoTelefonoID" class="form-control" asp-items="@(new SelectList(ViewData["TipoTelefonos"] as IEnumerable<loginregistermenu.Models.Tipo_Telefono>, "TipoTelefonoID", "Nombre"))"></select>
+        </div>
+    }
+
+    @for (int i = 0; i < Model.Direcciones.Count; i++)
+    {
+        <div class="form-group">
+            <label asp-for="Direcciones[i].DireccionDetalle"></label>
+            <input asp-for="Direcciones[i].DireccionDetalle" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Direcciones[i].TipoDireccionID"></label>
+            <select asp-for="Direcciones[i].TipoDireccionID" class="form-control" asp-items="@(new SelectList(ViewData["TipoDirecciones"] as IEnumerable<loginregistermenu.Models.Tipo_Direccion>, "TipoDireccionID", "Nombre"))"></select>
+        </div>
+    }
+
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+</form>

@@ -9,6 +9,13 @@ VALUES ('uli', '123456', 'uli@gmail.com', '555-5555',
     (SELECT TipoUsuarioID FROM Tipo_Usuario WHERE Nombre = 'Empleado'),
     (SELECT MAX(PersonaID) FROM Persona));
 
+		-- Verificar si el puesto "Administrador" existe y si no, insertarlo
+IF NOT EXISTS (SELECT 1 FROM Puesto_Empleado WHERE Nombre = 'Administrador')
+BEGIN
+    INSERT INTO Puesto_Empleado (Nombre)
+    VALUES ('Administrador');
+END;
+
 INSERT INTO Empleado (PersonaID, PuestoID)
 VALUES ((SELECT MAX(PersonaID) FROM Persona),
         (SELECT PuestoID FROM Puesto_Empleado WHERE Nombre = 'Administrador'));

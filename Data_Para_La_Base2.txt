@@ -120,3 +120,7 @@ INSERT INTO Tipo_Transaccion (Nombre) VALUES
 ('Salida'),
 ('Ajuste'),
 ('Transferencia');
+
+INSERT INTO [dbo].[Detalle_Correo] ([CorreoID], [Detalle])
+VALUES 
+(1,'Detalle del correo 1')

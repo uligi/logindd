@@ -30,15 +30,18 @@
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             @if (User.Identity.IsAuthenticated)
                             {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Usuario" asp-action="Perfil" style="color: #000;">Perfil</a>
+                                </li>
                                 @if (User.IsInRole("admin"))
                                 {
                                     <li class="nav-item">
                                         <form method="post" asp-controller="Empleados" asp-action="RegistrarEmpleado">
                                             <center>
-                                                <button type="submit" class="nav-link btn btn-link" 
-                                                        style="background-color: #F480A1; color: black; 
+                                                <button type="submit" class="nav-link btn btn-link"
+                                                        style="background-color: #F480A1; color: black;
                                                         padding: 10px 20px; border: 10px; cursor: pointer;
-                                                        text-decoration: none; display: inline-block; 
+                                                        text-decoration: none; display: inline-block;
                                                         border-radius: 5px; height: 40px; line-height: 20px;">
                                                     Registrar Empleado
                                                 </button>
