@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\detalle_correo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\detalle_correo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\usuario\\editarperfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\usuario\\editarperfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,52 +11,24 @@
       "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\usuarioregistroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\usuarioregistroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\usuarioperfilviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\usuarioperfilviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\usuario\\registrarusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\usuario\\registrarusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\usuarioregistroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\usuarioregistroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\telefono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\telefono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\direccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\direccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\usuario\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\usuario\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\tipo_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,36 +43,68 @@
       "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\tipo_correo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\telefono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\telefono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\rese\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\rese\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\registermodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\registermodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\puesto_empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\puesto_empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\metodo_pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\metodo_pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\correo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\correo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\indexmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\indexmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\empleados\\registrarempleado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\empleados\\registrarempleado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\estado_persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\estado_persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\estado_pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\estado_pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\estado_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\estado_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\estado_civil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\estado_civil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\envio_estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -119,148 +115,84 @@
       "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\envio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\rese\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\rese\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\direccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\direccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\detalle_pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\detalle_pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\tipo_transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\tipo_transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\tipo_telefono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\tipo_telefono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\tipo_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\tipo_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\estado_pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\estado_pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\estado_pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\estado_pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\detalle_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\detalle_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\estado_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\estado_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\metodo_pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\metodo_pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\detalle_correo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\detalle_correo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\estado_civil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\estado_civil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\correo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\correo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\puesto_empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\puesto_empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\estado_persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\estado_persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\mainmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\mainmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\usuarioperfilviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\usuarioperfilviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\usuario\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\usuario\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\productos\\registrarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\productos\\registrarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\registermodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\registermodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\models\\indexmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\models\\indexmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\usuario\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\usuario\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\usuario\\perfil.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\usuario\\perfil.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\usuario\\editarperfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\usuario\\editarperfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\productos\\registrarproducto.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\productos\\registrarproducto.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\empleados\\registrarempleado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\empleados\\registrarempleado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\empleados\\registrarempleado.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\empleados\\registrarempleado.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|c:\\users\\ul13m\\documents\\github\\logindd\\loginregistermenu\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73F4ED3B-B4F3-415C-B56D-BD1313B36A00}|loginregistermenu\\loginregistermenu.csproj|solutionrelative:loginregistermenu\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -270,7 +202,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -286,267 +218,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Usuario.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Usuario.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA9wCEAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T02:03:45.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "loginregistermenu\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "loginregistermenu\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAAJYAAAAAAAAAAAAIwKMAAABHAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T23:23:35.468Z",
+              "WhenOpened": "2024-06-13T19:56:40.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "loginregistermenu\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAewBoAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T01:47:23.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "loginregistermenu\\Controllers\\ClienteController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T16:34:44.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Persona.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Persona.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Persona.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Persona.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAYwCEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:33:30.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EditarPerfil.cshtml",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Usuario\\EditarPerfil.cshtml",
-              "RelativeDocumentMoniker": "loginregistermenu\\Views\\Usuario\\EditarPerfil.cshtml",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Usuario\\EditarPerfil.cshtml",
-              "RelativeToolTip": "loginregistermenu\\Views\\Usuario\\EditarPerfil.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T16:38:43.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Detalle_Correo.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Detalle_Correo.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Detalle_Correo.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Detalle_Correo.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Detalle_Correo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:47:00.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UsuarioRegistroViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\UsuarioRegistroViewModel.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\UsuarioRegistroViewModel.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\UsuarioRegistroViewModel.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\UsuarioRegistroViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T16:51:46.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UsuarioPerfilViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\UsuarioPerfilViewModel.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\UsuarioPerfilViewModel.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\UsuarioPerfilViewModel.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\UsuarioPerfilViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T16:54:39.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RegistrarUsuario.cshtml",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Usuario\\RegistrarUsuario.cshtml",
-              "RelativeDocumentMoniker": "loginregistermenu\\Views\\Usuario\\RegistrarUsuario.cshtml",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Usuario\\RegistrarUsuario.cshtml",
-              "RelativeToolTip": "loginregistermenu\\Views\\Usuario\\RegistrarUsuario.cshtml",
-              "ViewState": "AQIAABoAAAAAAAAAAAAQwDsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T23:22:17.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Pedido.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Pedido.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Pedido.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Pedido.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:44:28.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Telefono.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Telefono.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Telefono.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Telefono.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Telefono.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:46:31.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "Genero.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Genero.cs",
               "RelativeDocumentMoniker": "loginregistermenu\\Models\\Genero.cs",
               "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Genero.cs",
               "RelativeToolTip": "loginregistermenu\\Models\\Genero.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:32:03.381Z",
+              "WhenOpened": "2024-06-14T13:22:25.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Direccion.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Direccion.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Direccion.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Direccion.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Direccion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "loginregistermenu\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAIA1wA8AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:46:15.696Z",
+              "WhenOpened": "2024-06-13T19:49:21.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "loginregistermenu\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "loginregistermenu\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAYwHYAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "loginregistermenu\\Controllers\\ClienteController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T12:41:31.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmpleadosController.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Controllers\\EmpleadosController.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Controllers\\EmpleadosController.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Controllers\\EmpleadosController.cs",
+              "RelativeToolTip": "loginregistermenu\\Controllers\\EmpleadosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T20:00:05.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioRegistroViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\UsuarioRegistroViewModel.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\UsuarioRegistroViewModel.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\UsuarioRegistroViewModel.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\UsuarioRegistroViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T12:52:06.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistrarUsuario.cshtml",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Usuario\\RegistrarUsuario.cshtml",
+              "RelativeDocumentMoniker": "loginregistermenu\\Views\\Usuario\\RegistrarUsuario.cshtml",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Usuario\\RegistrarUsuario.cshtml",
+              "RelativeToolTip": "loginregistermenu\\Views\\Usuario\\RegistrarUsuario.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T23:20:54.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Perfil.cshtml",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Usuario\\Perfil.cshtml",
-              "RelativeDocumentMoniker": "loginregistermenu\\Views\\Usuario\\Perfil.cshtml",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Usuario\\Perfil.cshtml",
-              "RelativeToolTip": "loginregistermenu\\Views\\Usuario\\Perfil.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T16:41:33.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Tipo_Direccion.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Tipo_Direccion.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Tipo_Direccion.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Tipo_Direccion.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Tipo_Direccion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:43:12.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Tipo_Correo.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Tipo_Correo.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Tipo_Correo.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Tipo_Correo.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Tipo_Correo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:43:27.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\LoginModel.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\LoginModel.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\LoginModel.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\LoginModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T02:03:55.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Correo.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Correo.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Correo.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Correo.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Correo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:46:45.962Z",
+              "WhenOpened": "2024-06-14T12:40:44.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "Pago.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Pago.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Pago.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Pago.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Pago.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:22:40.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Pedido.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Pedido.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Pedido.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Pedido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:22:50.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Tipo_Usuario.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Tipo_Usuario.cs",
               "RelativeDocumentMoniker": "loginregistermenu\\Models\\Tipo_Usuario.cs",
@@ -554,103 +343,246 @@
               "RelativeToolTip": "loginregistermenu\\Models\\Tipo_Usuario.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:43:58.152Z",
+              "WhenOpened": "2024-06-14T12:47:06.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Persona.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Persona.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Persona.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Persona.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:22:51.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Puesto_Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Puesto_Empleado.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Puesto_Empleado.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Puesto_Empleado.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Puesto_Empleado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:22:52.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegisterModel .cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\RegisterModel .cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\RegisterModel .cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\RegisterModel .cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\RegisterModel .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:22:53.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Rese\u00F1a.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Rese\u00F1a.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Rese\u00F1a.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Rese\u00F1a.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Rese\u00F1a.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:22:58.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Telefono.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Telefono.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Telefono.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Telefono.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Telefono.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:22:59.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Tipo_Correo.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Tipo_Correo.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Tipo_Correo.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Tipo_Correo.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Tipo_Correo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:23:00.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Tipo_Direccion.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Tipo_Direccion.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Tipo_Direccion.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Tipo_Direccion.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Tipo_Direccion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:23:02.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Metodo_Pago.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Metodo_Pago.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Metodo_Pago.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Metodo_Pago.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Metodo_Pago.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:22:31.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Inventario.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Inventario.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Inventario.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Inventario.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Inventario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:22:29.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IndexModel.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\IndexModel.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\IndexModel.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\IndexModel.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\IndexModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:22:28.452Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Program.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Program.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Program.cs",
-              "RelativeToolTip": "loginregistermenu\\Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAYwCsAAAAAAAAA",
+              "Title": "Factura.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Factura.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Factura.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Factura.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Factura.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T23:22:51.916Z",
+              "WhenOpened": "2024-06-14T13:22:26.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Usuario\\Login.cshtml",
-              "RelativeDocumentMoniker": "loginregistermenu\\Views\\Usuario\\Login.cshtml",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Usuario\\Login.cshtml",
-              "RelativeToolTip": "loginregistermenu\\Views\\Usuario\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T23:22:12.675Z",
+              "Title": "Estado_Persona.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Estado_Persona.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Estado_Persona.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Estado_Persona.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Estado_Persona.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:22:24.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "RegistrarEmpleado.cshtml",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Empleados\\RegistrarEmpleado.cshtml",
-              "RelativeDocumentMoniker": "loginregistermenu\\Views\\Empleados\\RegistrarEmpleado.cshtml",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Empleados\\RegistrarEmpleado.cshtml",
-              "RelativeToolTip": "loginregistermenu\\Views\\Empleados\\RegistrarEmpleado.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAQwCcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T01:49:03.92Z",
+              "Title": "Estado_Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Estado_Pedido.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Estado_Pedido.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Estado_Pedido.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Estado_Pedido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:22:23.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\LoginModel.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T12:51:31.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "EmpleadosController.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Controllers\\EmpleadosController.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Controllers\\EmpleadosController.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Controllers\\EmpleadosController.cs",
-              "RelativeToolTip": "loginregistermenu\\Controllers\\EmpleadosController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowDQAAAAAAAAA",
+              "Title": "Estado_Factura.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Estado_Factura.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Estado_Factura.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Estado_Factura.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Estado_Factura.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T01:50:20.394Z",
+              "WhenOpened": "2024-06-14T13:22:23.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "ProductosController.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Controllers\\ProductosController.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Controllers\\ProductosController.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Controllers\\ProductosController.cs",
-              "RelativeToolTip": "loginregistermenu\\Controllers\\ProductosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAwAAAA",
+              "Title": "Estado_Civil.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Estado_Civil.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Estado_Civil.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Estado_Civil.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Estado_Civil.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T01:50:41.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Envio_Estado.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Envio_Estado.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Envio_Estado.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Envio_Estado.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Envio_Estado.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T16:13:05.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Envio.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Envio.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Envio.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Envio.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Envio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:45:28.275Z",
+              "WhenOpened": "2024-06-14T13:22:22.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
+              "Title": "Envio_Estado.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Envio_Estado.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Envio_Estado.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Envio_Estado.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Envio_Estado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:22:20.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Envio.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Envio.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Envio.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Envio.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Envio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:22:19.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "Empleado.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Empleado.cs",
               "RelativeDocumentMoniker": "loginregistermenu\\Models\\Empleado.cs",
@@ -658,468 +590,255 @@
               "RelativeToolTip": "loginregistermenu\\Models\\Empleado.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T01:47:03.948Z",
+              "WhenOpened": "2024-06-14T13:22:09.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "Rese\u00F1a.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Rese\u00F1a.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Rese\u00F1a.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Rese\u00F1a.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Rese\u00F1a.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
+              "Title": "Direccion.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Direccion.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Direccion.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Direccion.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Direccion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:46:01.773Z",
+              "WhenOpened": "2024-06-14T13:22:08.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "Carrito.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Carrito.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Carrito.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Carrito.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Carrito.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:45:48.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Pago.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Pago.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Pago.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Pago.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Pago.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:45:11.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Inventario.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Inventario.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Inventario.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Inventario.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Inventario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:44:58.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
               "Title": "Detalle_Pedido.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Detalle_Pedido.cs",
               "RelativeDocumentMoniker": "loginregistermenu\\Models\\Detalle_Pedido.cs",
               "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Detalle_Pedido.cs",
               "RelativeToolTip": "loginregistermenu\\Models\\Detalle_Pedido.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:44:44.418Z",
+              "WhenOpened": "2024-06-14T13:22:07.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Tipo_Transaccion.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Tipo_Transaccion.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Tipo_Transaccion.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Tipo_Transaccion.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Tipo_Transaccion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:44:14.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Tipo_Telefono.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Tipo_Telefono.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Tipo_Telefono.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Tipo_Telefono.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Tipo_Telefono.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:43:42.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Tipo_Producto.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Tipo_Producto.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Tipo_Producto.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Tipo_Producto.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Tipo_Producto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:42:54.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Estado_Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Estado_Pedido.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Estado_Pedido.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Estado_Pedido.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Estado_Pedido.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:42:37.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Estado_Pago.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Estado_Pago.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Estado_Pago.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Estado_Pago.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Estado_Pago.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:42:22.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 31,
               "Title": "Detalle_Factura.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Detalle_Factura.cs",
               "RelativeDocumentMoniker": "loginregistermenu\\Models\\Detalle_Factura.cs",
               "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Detalle_Factura.cs",
               "RelativeToolTip": "loginregistermenu\\Models\\Detalle_Factura.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:38:44.774Z",
+              "WhenOpened": "2024-06-14T13:22:05.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Factura.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Factura.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Factura.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Factura.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Factura.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "DocumentIndex": 32,
+              "Title": "Detalle_Correo.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Detalle_Correo.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Detalle_Correo.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Detalle_Correo.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Detalle_Correo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:38:32.59Z",
+              "WhenOpened": "2024-06-14T13:22:04.927Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Estado_Factura.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Estado_Factura.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Estado_Factura.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Estado_Factura.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Estado_Factura.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
+              "DocumentIndex": 37,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Usuario.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Usuario.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA5wB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:38:11.173Z",
+              "WhenOpened": "2024-06-14T12:45:21.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Metodo_Pago.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Metodo_Pago.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Metodo_Pago.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Metodo_Pago.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Metodo_Pago.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:37:51.069Z",
+              "DocumentIndex": 36,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Usuario\\Login.cshtml",
+              "RelativeDocumentMoniker": "loginregistermenu\\Views\\Usuario\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Usuario\\Login.cshtml",
+              "RelativeToolTip": "loginregistermenu\\Views\\Usuario\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T19:57:33.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 35,
+              "Title": "Carrito.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Carrito.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Carrito.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Carrito.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Carrito.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:07:25.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Correo.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Correo.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Correo.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Correo.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\Correo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:07:14.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "loginregistermenu\\Models\\Categoria.cs",
               "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Categoria.cs",
               "RelativeToolTip": "loginregistermenu\\Models\\Categoria.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:37:22.864Z",
+              "WhenOpened": "2024-06-14T13:07:22.976Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Estado_Civil.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Estado_Civil.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Estado_Civil.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Estado_Civil.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Estado_Civil.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
+              "DocumentIndex": 39,
+              "Title": "UsuarioPerfilViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\UsuarioPerfilViewModel.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Models\\UsuarioPerfilViewModel.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\UsuarioPerfilViewModel.cs",
+              "RelativeToolTip": "loginregistermenu\\Models\\UsuarioPerfilViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:32:24.538Z",
+              "WhenOpened": "2024-06-14T12:52:14.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Puesto_Empleado.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Puesto_Empleado.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Puesto_Empleado.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Puesto_Empleado.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Puesto_Empleado.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
+              "DocumentIndex": 38,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Program.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Program.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Program.cs",
+              "RelativeToolTip": "loginregistermenu\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:33:01.76Z",
+              "WhenOpened": "2024-06-14T13:05:52.145Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Estado_Persona.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Estado_Persona.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Estado_Persona.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Estado_Persona.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Estado_Persona.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:32:46.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "loginregistermenu\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\appsettings.Development.json",
-              "RelativeToolTip": "loginregistermenu\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-07T23:25:10.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "MainMenu.cshtml",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\MainMenu.cshtml",
-              "RelativeDocumentMoniker": "loginregistermenu\\Views\\MainMenu.cshtml",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\MainMenu.cshtml",
-              "RelativeToolTip": "loginregistermenu\\Views\\MainMenu.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T23:22:32.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\appsettings.json",
-              "RelativeDocumentMoniker": "loginregistermenu\\appsettings.json",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\appsettings.json",
-              "RelativeToolTip": "loginregistermenu\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-07T23:22:45.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "loginregistermenu\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "loginregistermenu\\Views\\_ViewImports.cshtml",
+              "DocumentIndex": 41,
+              "Title": "Perfil.cshtml",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Usuario\\Perfil.cshtml",
+              "RelativeDocumentMoniker": "loginregistermenu\\Views\\Usuario\\Perfil.cshtml",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Usuario\\Perfil.cshtml",
+              "RelativeToolTip": "loginregistermenu\\Views\\Usuario\\Perfil.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T15:28:45.222Z",
+              "WhenOpened": "2024-06-14T12:55:29.655Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "RegistrarProducto.cshtml",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Productos\\RegistrarProducto.cshtml",
-              "RelativeDocumentMoniker": "loginregistermenu\\Views\\Productos\\RegistrarProducto.cshtml",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Productos\\RegistrarProducto.cshtml",
-              "RelativeToolTip": "loginregistermenu\\Views\\Productos\\RegistrarProducto.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T01:48:29.8Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "loginregistermenu\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "loginregistermenu\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T23:20:42.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "RegisterModel .cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\RegisterModel .cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\RegisterModel .cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\RegisterModel .cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\RegisterModel .cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "DocumentIndex": 40,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Usuario\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Views\\Usuario\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Usuario\\Login.cshtml.cs",
+              "RelativeToolTip": "loginregistermenu\\Views\\Usuario\\Login.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T02:03:20.29Z",
+              "WhenOpened": "2024-06-14T13:06:12.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Producto.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\Producto.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\Producto.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\Producto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T01:46:26.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "IndexModel.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\IndexModel.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Models\\IndexModel.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Models\\IndexModel.cs",
-              "RelativeToolTip": "loginregistermenu\\Models\\IndexModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T02:03:54.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 42,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "loginregistermenu\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Controllers\\HomeController.cs",
               "RelativeToolTip": "loginregistermenu\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T23:23:33.292Z",
+              "WhenOpened": "2024-06-14T12:54:23.156Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "loginregistermenu\\Views\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Privacy.cshtml",
-              "RelativeToolTip": "loginregistermenu\\Views\\Privacy.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T23:22:40.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "loginregistermenu\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "loginregistermenu\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T23:22:10.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "RegistrarProducto.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Productos\\RegistrarProducto.cshtml.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Views\\Productos\\RegistrarProducto.cshtml.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Productos\\RegistrarProducto.cshtml.cs",
-              "RelativeToolTip": "loginregistermenu\\Views\\Productos\\RegistrarProducto.cshtml.cs",
+              "DocumentIndex": 43,
+              "Title": "Perfil.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Usuario\\Perfil.cshtml.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Views\\Usuario\\Perfil.cshtml.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Usuario\\Perfil.cshtml.cs",
+              "RelativeToolTip": "loginregistermenu\\Views\\Usuario\\Perfil.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T02:00:59.492Z"
+              "WhenOpened": "2024-06-14T12:55:37.726Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "loginregistermenu\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "loginregistermenu\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-07T23:27:07.637Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "custom.css",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\wwwroot\\css\\custom.css",
-              "RelativeDocumentMoniker": "loginregistermenu\\wwwroot\\css\\custom.css",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\wwwroot\\css\\custom.css",
-              "RelativeToolTip": "loginregistermenu\\wwwroot\\css\\custom.css",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-07T23:27:10.892Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "RegistrarEmpleado.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Empleados\\RegistrarEmpleado.cshtml.cs",
-              "RelativeDocumentMoniker": "loginregistermenu\\Views\\Empleados\\RegistrarEmpleado.cshtml.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Empleados\\RegistrarEmpleado.cshtml.cs",
-              "RelativeToolTip": "loginregistermenu\\Views\\Empleados\\RegistrarEmpleado.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 46,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "loginregistermenu\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "loginregistermenu\\Controllers\\ProductosController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T02:06:26.209Z"
+              "WhenOpened": "2024-06-14T12:54:24.936Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "loginregistermenu\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "loginregistermenu\\wwwroot\\js\\site.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-07T23:27:01.82Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Error.cshtml",
-              "RelativeDocumentMoniker": "loginregistermenu\\Views\\Error.cshtml",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Error.cshtml",
-              "RelativeToolTip": "loginregistermenu\\Views\\Error.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "DocumentIndex": 45,
+              "Title": "RegistrarEmpleado.cshtml",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Empleados\\RegistrarEmpleado.cshtml",
+              "RelativeDocumentMoniker": "loginregistermenu\\Views\\Empleados\\RegistrarEmpleado.cshtml",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Empleados\\RegistrarEmpleado.cshtml",
+              "RelativeToolTip": "loginregistermenu\\Views\\Empleados\\RegistrarEmpleado.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T23:22:26.959Z"
+              "WhenOpened": "2024-06-14T12:54:49.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "EditarPerfil.cshtml",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Usuario\\EditarPerfil.cshtml",
+              "RelativeDocumentMoniker": "loginregistermenu\\Views\\Usuario\\EditarPerfil.cshtml",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Usuario\\EditarPerfil.cshtml",
+              "RelativeToolTip": "loginregistermenu\\Views\\Usuario\\EditarPerfil.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T12:56:09.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "loginregistermenu\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\logindd\\loginregistermenu\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "loginregistermenu\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T12:41:18.761Z",
+              "EditorCaption": ""
             }
           ]
         }

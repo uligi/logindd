@@ -26,8 +26,8 @@ namespace loginregistermenu.Controllers
         {
             if (ModelState.IsValid)
             {
-                usuario.Rol = "cliente"; // Asignar rol predeterminado
-                _context.Usuarios.Add(usuario);
+                usuario.TipoUsuarioID = 1; // Asignar rol predeterminado
+                _context.Usuario.Add(usuario);
                 await _context.SaveChangesAsync();
                 return RedirectToAction("Login", "Usuario");
             }
@@ -37,7 +37,7 @@ namespace loginregistermenu.Controllers
         [HttpGet]
         public async Task<IActionResult> EditarPerfil()
         {
-            var usuario = await _context.Usuarios
+            var usuario = await _context.Usuario
                 .Include(u => u.Persona)
                 .FirstOrDefaultAsync(u => u.Correo == User.Identity.Name);
 
@@ -46,11 +46,11 @@ namespace loginregistermenu.Controllers
                 return NotFound();
             }
 
-            ViewData["Generos"] = await _context.Generos.ToListAsync();
-            ViewData["EstadoCiviles"] = await _context.EstadoCiviles.ToListAsync();
-            ViewData["EstadoPersonas"] = await _context.EstadoPersonas.ToListAsync();
-            ViewData["TipoTelefonos"] = await _context.TiposTelefono.ToListAsync();
-            ViewData["TipoDirecciones"] = await _context.TiposDireccion.ToListAsync();
+            ViewData["Generos"] = await _context.Genero.ToListAsync() ?? new List<Genero>();
+            ViewData["EstadoCiviles"] = await _context.EstadoCiviles.ToListAsync() ?? new List<Estado_Civil>();
+            ViewData["EstadoPersonas"] = await _context.EstadoPersonas.ToListAsync() ?? new List<Estado_Persona>();
+            ViewData["TipoTelefonos"] = await _context.TiposTelefono.ToListAsync() ?? new List<Tipo_Telefono>();
+            ViewData["TipoDirecciones"] = await _context.TiposDireccion.ToListAsync() ?? new List<Tipo_Direccion>();
 
             return View(usuario);
         }
@@ -65,11 +65,11 @@ namespace loginregistermenu.Controllers
                 return RedirectToAction("Index", "Home");
             }
 
-            ViewData["Generos"] = await _context.Generos.ToListAsync();
-            ViewData["EstadoCiviles"] = await _context.EstadoCiviles.ToListAsync();
-            ViewData["EstadoPersonas"] = await _context.EstadoPersonas.ToListAsync();
-            ViewData["TipoTelefonos"] = await _context.TiposTelefono.ToListAsync();
-            ViewData["TipoDirecciones"] = await _context.TiposDireccion.ToListAsync();
+            ViewData["Generos"] = await _context.Genero.ToListAsync() ?? new List<Genero>();
+            ViewData["EstadoCiviles"] = await _context.EstadoCiviles.ToListAsync() ?? new List<Estado_Civil>();
+            ViewData["EstadoPersonas"] = await _context.EstadoPersonas.ToListAsync() ?? new List<Estado_Persona>();
+            ViewData["TipoTelefonos"] = await _context.TiposTelefono.ToListAsync() ?? new List<Tipo_Telefono>();
+            ViewData["TipoDirecciones"] = await _context.TiposDireccion.ToListAsync() ?? new List<Tipo_Direccion>();
 
             return View(usuario);
         }

@@ -8,13 +8,10 @@
 
 <form asp-action="RegistrarUsuario" method="post">
     <div class="form-group">
-        <label asp-for="Usuario.Nombre"></label>
-        <input asp-for="Usuario.Nombre" class="form-control" />
+        <label asp-for="Usuario.NombreUsuario"></label>
+        <input asp-for="Usuario.NombreUsuario" class="form-control" />
     </div>
-    <div class="form-group">
-        <label asp-for="Usuario.Cedula"></label>
-        <input asp-for="Usuario.Cedula" class="form-control" />
-    </div>
+ 
     <div class="form-group">
         <label asp-for="Usuario.Correo"></label>
         <input asp-for="Usuario.Correo" class="form-control" />
@@ -29,7 +26,7 @@
     </div>
     <div class="form-group">
         <label asp-for="Persona.GeneroID"></label>
-        <select asp-for="Persona.GeneroID" class="form-control" asp-items="@(new SelectList(Model.Generos, "GeneroID", "Nombre"))"></select>
+        <select asp-for="Persona.GeneroID" class="form-control" asp-items="@(new SelectList(Model.Genero, "GeneroID", "Nombre"))"></select>
     </div>
     <div class="form-group">
         <label asp-for="Telefonos[0].NumeroTelefono"></label>

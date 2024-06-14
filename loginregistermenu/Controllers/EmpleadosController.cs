@@ -19,7 +19,7 @@ namespace loginregistermenu.Controllers
         [HttpGet]
         public async Task<IActionResult> RegistrarEmpleado()
         {
-            ViewData["Generos"] = await _context.Generos.ToListAsync();
+            ViewData["Generos"] = await _context.Genero.ToListAsync();
             ViewData["EstadoCiviles"] = await _context.EstadoCiviles.ToListAsync();
             ViewData["EstadoPersonas"] = await _context.EstadoPersonas.ToListAsync();
             ViewData["PuestosEmpleados"] = await _context.PuestosEmpleados.ToListAsync();
@@ -31,7 +31,7 @@ namespace loginregistermenu.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Personas.Add(empleado.Persona);
+                _context.Persona.Add(empleado.Persona);
                 await _context.SaveChangesAsync();
 
                 empleado.PersonaID = empleado.Persona.PersonaID;
@@ -41,7 +41,7 @@ namespace loginregistermenu.Controllers
                 return RedirectToAction("Index", "Home");
             }
 
-            ViewData["Generos"] = await _context.Generos.ToListAsync();
+            ViewData["Generos"] = await _context.Genero.ToListAsync();
             ViewData["EstadoCiviles"] = await _context.EstadoCiviles.ToListAsync();
             ViewData["EstadoPersonas"] = await _context.EstadoPersonas.ToListAsync();
             ViewData["PuestosEmpleados"] = await _context.PuestosEmpleados.ToListAsync();

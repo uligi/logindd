@@ -23,10 +23,10 @@ namespace loginregistermenu.Controllers
         [HttpGet]
         public async Task<IActionResult> RegistrarUsuario()
         {
-            var generos = await _context.Generos.ToListAsync();
+            var genero = await _context.Genero.ToListAsync();
             var model = new UsuarioRegistroViewModel
             {
-                Generos = generos,
+                Genero = genero,
                 Direcciones = new List<Direccion> { new Direccion() },
                 Telefonos = new List<Telefono> { new Telefono() },
                 Correos = new List<Correo> { new Correo() }
@@ -39,17 +39,17 @@ namespace loginregistermenu.Controllers
         {
             if (ModelState.IsValid)
             {
-                model.Usuario.Rol = "cliente"; // Asignar rol predeterminado
-                _context.Personas.Add(model.Persona);
+                model.Usuario.TipoUsuarioID = 3; // Asignar tipo de usuario predeterminado (cliente)
+                _context.Persona.Add(model.Persona);
                 await _context.SaveChangesAsync();
 
                 model.Usuario.PersonaID = model.Persona.PersonaID;
-                _context.Usuarios.Add(model.Usuario);
+                _context.Usuario.Add(model.Usuario);
                 await _context.SaveChangesAsync();
 
                 foreach (var direccion in model.Direcciones)
                 {
-                    direccion.UsuarioID = model.Usuario.Id;
+                    direccion.UsuarioID = model.Usuario.UsuarioID;
                     _context.Direcciones.Add(direccion);
                 }
 
@@ -69,7 +69,7 @@ namespace loginregistermenu.Controllers
                 return RedirectToAction("Login");
             }
 
-            model.Generos = await _context.Generos.ToListAsync();
+            model.Genero = await _context.Genero.ToListAsync();
             return View(model);
         }
 
@@ -84,9 +84,11 @@ namespace loginregistermenu.Controllers
         {
             if (ModelState.IsValid)
             {
-                var usuario = await _context.Usuarios
+                var usuario = await _context.Usuario
+                    .Include(u => u.Persona)
+                    .Include(u => u.Tipo_Usuario) // Incluye la propiedad de navegación Tipo_Usuario
                     .FirstOrDefaultAsync(u =>
-                        (u.Correo == model.Correo || u.Nombre == model.Correo) &&
+                        (u.Correo == model.CorreoONombreUsuario || u.NombreUsuario == model.CorreoONombreUsuario) &&
                         u.Contrasena == model.Contrasena);
 
                 if (usuario != null)
@@ -94,7 +96,7 @@ namespace loginregistermenu.Controllers
                     var claims = new List<Claim>
                     {
                         new Claim(ClaimTypes.Name, usuario.Correo),
-                        new Claim(ClaimTypes.Role, usuario.Rol)
+                        new Claim(ClaimTypes.Role, usuario.Tipo_Usuario.Nombre) // Usar el nombre del tipo de usuario como rol
                     };
 
                     var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -119,7 +121,7 @@ namespace loginregistermenu.Controllers
         [HttpGet]
         public async Task<IActionResult> Perfil()
         {
-            var usuario = await _context.Usuarios
+            var usuario = await _context.Usuario
                 .Include(u => u.Persona)
                 .Include(u => u.Direcciones)
                 .Include(u => u.Telefonos)
@@ -130,7 +132,7 @@ namespace loginregistermenu.Controllers
                 return NotFound();
             }
 
-            var generos = await _context.Generos.ToListAsync();
+            var generos = await _context.Genero.ToListAsync();
 
             var model = new UsuarioPerfilViewModel
             {

@@ -4,11 +4,10 @@ namespace loginregistermenu.Models
 {
     public class LoginModel
     {
-        [Required]
-        [EmailAddress]
-        public string Correo { get; set; } = string.Empty;
+        [Required(ErrorMessage = "El campo correo o nombre de usuario es obligatorio.")]
+        public string CorreoONombreUsuario { get; set; } = string.Empty;
 
-        [Required]
+        [Required(ErrorMessage = "El campo contraseña es obligatorio.")]
         [DataType(DataType.Password)]
         public string Contrasena { get; set; } = string.Empty;
     }

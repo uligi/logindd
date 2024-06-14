@@ -3,6 +3,6 @@
     public class Tipo_Direccion
     {
         public int TipoDireccionID { get; set; }
-        public string Nombre { get; set; }
+        public string Nombre { get; set; } = string.Empty;
     }
 }

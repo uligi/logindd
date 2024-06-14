@@ -8,5 +8,6 @@
         public string DireccionCorreo { get; set; } = string.Empty;
         public int TipoCorreoID { get; set; }
         public Tipo_Correo TipoCorreo { get; set; } = new Tipo_Correo();
+        public ICollection<Detalle_Correo> DetallesCorreo { get; set; } = new List<Detalle_Correo>();
     }
 }
