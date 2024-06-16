@@ -23,14 +23,23 @@ namespace loginregistermenu.Controllers
         [HttpGet]
         public async Task<IActionResult> RegistrarUsuario()
         {
-            var genero = await _context.Genero.ToListAsync();
+            var generos = await _context.Genero.ToListAsync();
+            var tipoTelefonos = await _context.Tipo_Telefono.ToListAsync();
+            var tipoDirecciones = await _context.Tipo_Direccion.ToListAsync();
+            var tipoCorreos = await _context.Tipo_Correo.ToListAsync();
+
             var model = new UsuarioRegistroViewModel
             {
-                Genero = genero,
+                Genero = generos,
                 Direcciones = new List<Direccion> { new Direccion() },
                 Telefonos = new List<Telefono> { new Telefono() },
                 Correos = new List<Correo> { new Correo() }
             };
+
+            ViewData["TipoTelefonos"] = tipoTelefonos;
+            ViewData["TipoDirecciones"] = tipoDirecciones;
+            ViewData["TipoCorreos"] = tipoCorreos;
+
             return View(model);
         }
 
@@ -50,19 +59,28 @@ namespace loginregistermenu.Controllers
                 foreach (var direccion in model.Direcciones)
                 {
                     direccion.UsuarioID = model.Usuario.UsuarioID;
-                    _context.Direcciones.Add(direccion);
+                    _context.Direccion.Add(direccion);
                 }
 
                 foreach (var telefono in model.Telefonos)
                 {
                     telefono.PersonaID = model.Persona.PersonaID;
-                    _context.Telefonos.Add(telefono);
+                    _context.Telefono.Add(telefono);
                 }
 
-                foreach (var correo in model.Correos)
+                // Añadir el correo del usuario a la tabla Correo
+                var correo = new Correo
                 {
-                    correo.PersonaID = model.Persona.PersonaID;
-                    _context.Correos.Add(correo);
+                    PersonaID = model.Persona.PersonaID,
+                    DireccionCorreo = model.Usuario.Email,
+                    TipoCorreoID = 1 // Asumiendo que 1 es el ID para el tipo de correo predeterminado
+                };
+                _context.Correo.Add(correo);
+
+                foreach (var correoExtra in model.Correos)
+                {
+                    correoExtra.PersonaID = model.Persona.PersonaID;
+                    _context.Correo.Add(correoExtra);
                 }
 
                 await _context.SaveChangesAsync();
@@ -70,6 +88,10 @@ namespace loginregistermenu.Controllers
             }
 
             model.Genero = await _context.Genero.ToListAsync();
+            ViewData["TipoTelefonos"] = await _context.Tipo_Telefono.ToListAsync();
+            ViewData["TipoDirecciones"] = await _context.Tipo_Direccion.ToListAsync();
+            ViewData["TipoCorreos"] = await _context.Tipo_Correo.ToListAsync();
+
             return View(model);
         }
 
@@ -88,14 +110,14 @@ namespace loginregistermenu.Controllers
                     .Include(u => u.Persona)
                     .Include(u => u.Tipo_Usuario) // Incluye la propiedad de navegación Tipo_Usuario
                     .FirstOrDefaultAsync(u =>
-                        (u.Correo == model.CorreoONombreUsuario || u.NombreUsuario == model.CorreoONombreUsuario) &&
-                        u.Contrasena == model.Contrasena);
+                        (u.Email == model.CorreoONombreUsuario || u.NombreUsuario == model.CorreoONombreUsuario) &&
+                        u.Contraseña == model.Contraseña);
 
                 if (usuario != null)
                 {
                     var claims = new List<Claim>
                     {
-                        new Claim(ClaimTypes.Name, usuario.Correo),
+                        new Claim(ClaimTypes.Name, usuario.Email),
                         new Claim(ClaimTypes.Role, usuario.Tipo_Usuario.Nombre) // Usar el nombre del tipo de usuario como rol
                     };
 
@@ -123,28 +145,28 @@ namespace loginregistermenu.Controllers
         {
             var usuario = await _context.Usuario
                 .Include(u => u.Persona)
-                .Include(u => u.Direcciones)
-                .Include(u => u.Telefonos)
-                .FirstOrDefaultAsync(u => u.Correo == User.Identity.Name);
+                .Include(u => u.Direccion)
+                .Include(u => u.Telefono)
+                .FirstOrDefaultAsync(u => u.Email == User.Identity.Name);
 
             if (usuario == null)
             {
                 return NotFound();
             }
 
-            var generos = await _context.Genero.ToListAsync();
+            var genero = await _context.Genero.ToListAsync();
 
             var model = new UsuarioPerfilViewModel
             {
                 Usuario = usuario,
                 Persona = usuario.Persona,
-                Direcciones = usuario.Direcciones.ToList(),
-                Telefonos = usuario.Telefonos.ToList(),
-                Generos = generos
+                Direcciones = usuario.Direccion.ToList(),
+                Telefonos = usuario.Telefono.ToList(),
+                Genero = genero
             };
 
-            ViewData["TipoTelefonos"] = await _context.TiposTelefono.ToListAsync();
-            ViewData["TipoDirecciones"] = await _context.TiposDireccion.ToListAsync();
+            ViewData["TipoTelefonos"] = await _context.Tipo_Telefono.ToListAsync();
+            ViewData["TipoDirecciones"] = await _context.Tipo_Direccion.ToListAsync();
 
             return View(model);
         }
@@ -162,8 +184,8 @@ namespace loginregistermenu.Controllers
                 return RedirectToAction("Index", "Home");
             }
 
-            ViewData["TipoTelefonos"] = await _context.TiposTelefono.ToListAsync();
-            ViewData["TipoDirecciones"] = await _context.TiposDireccion.ToListAsync();
+            ViewData["TipoTelefonos"] = await _context.Tipo_Telefono.ToListAsync();
+            ViewData["TipoDirecciones"] = await _context.Tipo_Direccion.ToListAsync();
 
             return View(model);
         }

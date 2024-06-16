@@ -9,6 +9,6 @@ namespace loginregistermenu.Models
 
         [Required(ErrorMessage = "El campo contraseña es obligatorio.")]
         [DataType(DataType.Password)]
-        public string Contrasena { get; set; } = string.Empty;
+        public string Contraseña { get; set; } = string.Empty;
     }
 }

@@ -20,9 +20,9 @@ namespace loginregistermenu.Controllers
         public async Task<IActionResult> RegistrarEmpleado()
         {
             ViewData["Generos"] = await _context.Genero.ToListAsync();
-            ViewData["EstadoCiviles"] = await _context.EstadoCiviles.ToListAsync();
-            ViewData["EstadoPersonas"] = await _context.EstadoPersonas.ToListAsync();
-            ViewData["PuestosEmpleados"] = await _context.PuestosEmpleados.ToListAsync();
+            ViewData["EstadoCiviles"] = await _context.Estado_Civil.ToListAsync();
+            ViewData["EstadoPersonas"] = await _context.Estado_Persona.ToListAsync();
+            ViewData["PuestosEmpleados"] = await _context.Puesto_Empleado.ToListAsync();
             return View();
         }
 
@@ -42,9 +42,9 @@ namespace loginregistermenu.Controllers
             }
 
             ViewData["Generos"] = await _context.Genero.ToListAsync();
-            ViewData["EstadoCiviles"] = await _context.EstadoCiviles.ToListAsync();
-            ViewData["EstadoPersonas"] = await _context.EstadoPersonas.ToListAsync();
-            ViewData["PuestosEmpleados"] = await _context.PuestosEmpleados.ToListAsync();
+            ViewData["EstadoCiviles"] = await _context.Estado_Civil.ToListAsync();
+            ViewData["EstadoPersonas"] = await _context.Estado_Persona.ToListAsync();
+            ViewData["PuestosEmpleados"] = await _context.Puesto_Empleado.ToListAsync();
 
             return View(empleado);
         }

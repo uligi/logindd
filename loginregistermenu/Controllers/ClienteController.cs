@@ -39,7 +39,7 @@ namespace loginregistermenu.Controllers
         {
             var usuario = await _context.Usuario
                 .Include(u => u.Persona)
-                .FirstOrDefaultAsync(u => u.Correo == User.Identity.Name);
+                .FirstOrDefaultAsync(u => u.Email == User.Identity.Name);
 
             if (usuario == null)
             {
@@ -47,10 +47,10 @@ namespace loginregistermenu.Controllers
             }
 
             ViewData["Generos"] = await _context.Genero.ToListAsync() ?? new List<Genero>();
-            ViewData["EstadoCiviles"] = await _context.EstadoCiviles.ToListAsync() ?? new List<Estado_Civil>();
-            ViewData["EstadoPersonas"] = await _context.EstadoPersonas.ToListAsync() ?? new List<Estado_Persona>();
-            ViewData["TipoTelefonos"] = await _context.TiposTelefono.ToListAsync() ?? new List<Tipo_Telefono>();
-            ViewData["TipoDirecciones"] = await _context.TiposDireccion.ToListAsync() ?? new List<Tipo_Direccion>();
+            ViewData["EstadoCiviles"] = await _context.Estado_Civil.ToListAsync() ?? new List<Estado_Civil>();
+            ViewData["EstadoPersonas"] = await _context.Estado_Persona.ToListAsync() ?? new List<Estado_Persona>();
+            ViewData["TipoTelefonos"] = await _context.Tipo_Telefono.ToListAsync() ?? new List<Tipo_Telefono>();
+            ViewData["TipoDirecciones"] = await _context.Tipo_Direccion.ToListAsync() ?? new List<Tipo_Direccion>();
 
             return View(usuario);
         }
@@ -66,10 +66,10 @@ namespace loginregistermenu.Controllers
             }
 
             ViewData["Generos"] = await _context.Genero.ToListAsync() ?? new List<Genero>();
-            ViewData["EstadoCiviles"] = await _context.EstadoCiviles.ToListAsync() ?? new List<Estado_Civil>();
-            ViewData["EstadoPersonas"] = await _context.EstadoPersonas.ToListAsync() ?? new List<Estado_Persona>();
-            ViewData["TipoTelefonos"] = await _context.TiposTelefono.ToListAsync() ?? new List<Tipo_Telefono>();
-            ViewData["TipoDirecciones"] = await _context.TiposDireccion.ToListAsync() ?? new List<Tipo_Direccion>();
+            ViewData["EstadoCiviles"] = await _context.Estado_Civil.ToListAsync() ?? new List<Estado_Civil>();
+            ViewData["EstadoPersonas"] = await _context.Estado_Persona.ToListAsync() ?? new List<Estado_Persona>();
+            ViewData["TipoTelefonos"] = await _context.Tipo_Telefono.ToListAsync() ?? new List<Tipo_Telefono>();
+            ViewData["TipoDirecciones"] = await _context.Tipo_Direccion.ToListAsync() ?? new List<Tipo_Direccion>();
 
             return View(usuario);
         }

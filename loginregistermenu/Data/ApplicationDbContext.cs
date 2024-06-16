@@ -14,34 +14,34 @@ namespace loginregistermenu.Data
         public DbSet<Empleado> Empleados { get; set; }
         public DbSet<Persona> Persona { get; set; }
         public DbSet<Genero> Genero { get; set; }
-        public DbSet<Estado_Civil> EstadoCiviles { get; set; }
-        public DbSet<Estado_Persona> EstadoPersonas { get; set; }
-        public DbSet<Puesto_Empleado> PuestosEmpleados { get; set; }
-        public DbSet<Categoria> Categorias { get; set; }
-        public DbSet<Metodo_Pago> MetodosPago { get; set; }
-        public DbSet<Estado_Factura> EstadosFactura { get; set; }
-        public DbSet<Estado_Pago> EstadosPago { get; set; }
-        public DbSet<Estado_Pedido> EstadosPedido { get; set; }
-        public DbSet<Tipo_Producto> TiposProducto { get; set; }
-        public DbSet<Tipo_Direccion> TiposDireccion { get; set; }
-        public DbSet<Tipo_Correo> TiposCorreo { get; set; }
-        public DbSet<Tipo_Telefono> TiposTelefono { get; set; }
+        public DbSet<Estado_Civil> Estado_Civil { get; set; }
+        public DbSet<Estado_Persona> Estado_Persona { get; set; }
+        public DbSet<Puesto_Empleado> Puesto_Empleado { get; set; }
+        public DbSet<Categoria> Categoria { get; set; }
+        public DbSet<Metodo_Pago> Metodo_Pago { get; set; }
+        public DbSet<Estado_Factura> Estado_Factura { get; set; }
+        public DbSet<Estado_Pago> Estado_Pago { get; set; }
+        public DbSet<Estado_Pedido> Estado_Pedido { get; set; }
+        public DbSet<Tipo_Producto> Tipo_Producto { get; set; }
+        public DbSet<Tipo_Direccion> Tipo_Direccion { get; set; }
+        public DbSet<Tipo_Correo> Tipo_Correo { get; set; }
+        public DbSet<Tipo_Telefono> Tipo_Telefono { get; set; }
         public DbSet<Tipo_Usuario> Tipo_Usuario { get; set; }
-        public DbSet<Tipo_Transaccion> TiposTransaccion { get; set; }
-        public DbSet<Factura> Facturas { get; set; }
-        public DbSet<Detalle_Factura> DetallesFactura { get; set; }
-        public DbSet<Pedido> Pedidos { get; set; }
-        public DbSet<Detalle_Pedido> DetallesPedido { get; set; }
-        public DbSet<Inventario> Inventarios { get; set; }
-        public DbSet<Pago> Pagos { get; set; }
-        public DbSet<Envio> Envios { get; set; }
-        public DbSet<Carrito> Carritos { get; set; }
-        public DbSet<Reseña> Reseñas { get; set; }
-        public DbSet<Direccion> Direcciones { get; set; }
-        public DbSet<Telefono> Telefonos { get; set; }
-        public DbSet<Correo> Correos { get; set; }
-        public DbSet<Detalle_Correo> DetallesCorreo { get; set; }
-        public DbSet<Envio_Estado> EnvioEstados { get; set; }
+        public DbSet<Tipo_Transaccion> Tipo_Transaccion { get; set; }
+        public DbSet<Factura> Factura { get; set; }
+        public DbSet<Detalle_Factura> Detalle_Factura { get; set; }
+        public DbSet<Pedido> Pedido { get; set; }
+        public DbSet<Detalle_Pedido> Detalle_Pedido { get; set; }
+        public DbSet<Inventario> Inventario { get; set; }
+        public DbSet<Pago> Pago { get; set; }
+        public DbSet<Envio> Envio { get; set; }
+        public DbSet<Carrito> Carrito { get; set; }
+        public DbSet<Reseña> Reseña { get; set; }
+        public DbSet<Direccion> Direccion { get; set; }
+        public DbSet<Telefono> Telefono { get; set; }
+        public DbSet<Correo> Correo { get; set; }
+        public DbSet<Detalle_Correo> Detalle_Correo { get; set; }
+        public DbSet<Envio_Estado> Envio_Estado { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -185,7 +185,7 @@ namespace loginregistermenu.Data
 
             modelBuilder.Entity<Direccion>()
                 .HasOne(d => d.Usuario)
-                .WithMany(u => u.Direcciones)
+                .WithMany(u => u.Direccion)
                 .HasForeignKey(d => d.UsuarioID);
 
             modelBuilder.Entity<Direccion>()
